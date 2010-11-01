@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!--
+        android:id="@android:id/tabcontent" <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" android:layout_height="fill_parent">
+    -->
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- [START] 1st tab content -->
+    <AnalogClock
+        android:id="@+id/tab1Clock"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal" />
+    <!-- [END] 1st tab content -->
+
+    <!-- [START] 2nd tab content -->
+    <Button
+        android:id="@+id/tab2Button"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="A semi-random button" />
+    <!-- [END] 2nd tab content -->
+
+</merge>
+
+
+
