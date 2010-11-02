@@ -1,8 +1,8 @@
 /*
- * (#) com.ketti.fancy.tab1.FirstTabActivity
+ * (#) net.brainage.apptab.FirstTabActivity
  * Created on 2010. 7. 20.
  */
-package com.ketti.fancy.tab1;
+package net.brainage.apptab;
 
 import android.app.Activity;
 import android.os.Bundle;

@@ -1,8 +1,8 @@
 /*
- * (#) com.ketti.fancy.tab1.SecondTabActivity
+ * (#) net.brainage.apptab.SecondTabActivity
  * Created on 2010. 7. 20.
  */
-package com.ketti.fancy.tab1;
+package net.brainage.apptab;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -29,9 +29,9 @@ public class SecondTabActivity extends Activity {
     }
 
     /**
-     * clickMeButtonÀÇ onClick Event¸¦ Ã³¸®ÇÑ´Ù.
+     * clickMeButtonï¿½ï¿½ onClick Eventï¿½ï¿½ Ã³ï¿½ï¿½ï¿½Ñ´ï¿½.
      * 
-     * @param v ÀÌº¥Æ®°¡ ¹ß»ýÇÑ clickMeButtonÀÇ Instance
+     * @param v ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ß»ï¿½ï¿½ï¿½ clickMeButtonï¿½ï¿½ Instance
      */
     public void clickMeButtonOnClick(View v) {
         Toast.makeText(this,

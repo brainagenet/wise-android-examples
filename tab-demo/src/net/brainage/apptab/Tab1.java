@@ -1,4 +1,4 @@
-package com.ketti.fancy.tab1;
+package net.brainage.apptab;
 
 import android.app.TabActivity;
 import android.content.Intent;
