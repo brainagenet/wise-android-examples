@@ -42,6 +42,21 @@ public class Main extends Activity
         i.setComponent(new ComponentName("com.ketti.fancy.tab1", "com.ketti.fancy.tab1.Tab1"));
         i.putExtra("REQ_TAB_ID", 120);
         startActivity(i);
+
+    }
+
+    public void onClickCallMonthlyCalendar(View v) {
+        Intent intent = new Intent();
+        intent.setClassName("com.android.calendar", "com.android.calendar.LaunchActivity");
+        intent.putExtra("DETAIL_VIEW_MODE", 0);
+        startActivity(intent);
+    }
+
+    public void onClickCallDailyCalendar(View v) {
+        Intent intent = new Intent();
+        intent.setClassName("com.android.calendar", "com.android.calendar.LaunchActivity");
+        intent.putExtra("DETAIL_VIEW_MODE", 2);
+        startActivity(intent);
     }
 
 }

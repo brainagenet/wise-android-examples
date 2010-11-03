@@ -28,5 +28,17 @@
         android:layout_height="wrap_content"
         android:text="Call Another App's Second Tab"
         android:onClick="onClickCallSecondTab" />
+        
+        <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Calendar App's Monthly Tab"
+        android:onClick="onClickCallMonthlyCalendar" />
+        
+        <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Calendar App's Daily Tab"
+        android:onClick="onClickCallDailyCalendar" />
 
 </LinearLayout>
